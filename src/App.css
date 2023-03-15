@@ -1,0 +1,98 @@
+.App{
+	font-family: sans-serif;
+}
+
+.movie-container{
+	width: 340px;
+}
+
+
+.movie-poster{
+	width: 300px;
+	height: 300px;
+	/* object-fit: cover; */
+}
+
+.movie-specs{
+	display: flex;
+	/* margin: 0; */
+}
+
+.movie-name{
+  	margin-top: 9px;
+}
+
+.movie-rating{
+  	margin-left: auto;
+	margin-top: 9px;
+}
+
+.movie-list{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+	gap: 16px;
+  
+}
+
+.add-movie-form{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	max-width: 500px;
+	margin: 10px auto;
+}
+
+.home{
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+body{
+	margin: 0px;
+	min-height: 100vh;
+}
+
+.movie-details-container{
+    padding-top: 30px;
+	max-width: 750px;
+}
+
+.booking-movie-page {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px ;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.seat {
+    display:flex;
+    justify-content: center;
+    width:30px;
+    border: 1px solid grey;
+    background-color: rgb(157, 167, 167);
+
+    cursor: pointer;
+}
+
+.selected {
+    background-color: red;
+}
+
+.userButtons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 13px;
+}
+
+.theaters {
+
+	cursor: pointer;
+}

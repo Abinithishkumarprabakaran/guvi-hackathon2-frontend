@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "theater" : "PVR Cinemas",
+        "screens" : 3,
+        "location" : "Anna Nagar"
+    },
+    {
+        "id" : 2,
+        "theater" : "Palazza",
+        "screens" : 3,
+        "location" : "Vadapalani"
+    }
+]
+
+[
+    {
+        "actors": "Kamal Hassan | Fahad Fasil | Vijay Sethupathy",
+        "director": "Lokesh Kanagaraj",
+        "music": "Anirudh Ravichander"
+    }
+]
